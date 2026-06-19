@@ -33,18 +33,15 @@ jobs:
           git add -A
           
           arr=(
-            "chore(bot): 😂 auto commit"
-            "chore(bot): 😱 auto commit"
-            "chore(bot): 👿 auto commit"
             "chore(bot): 💩 auto commit"
-            "chore(bot): 🙏 auto commit"
-            "chore(bot): 👷 auto commit"
-            "chore(bot): 👱 auto commit"
-            "chore(bot): 🤖 auto commit"
-            "chore(bot): 😵 auto commit"
-            "chore(bot): 👮 auto commit"
+            "chore(bot): 💩💩 auto commit"
+            "chore(bot): 💩💩💩 auto commit"
+            "chore(bot): 💩💩💩💩 auto commit"
+            "chore(bot): 💩💩💩💩💩 auto commit"
+            "chore(bot): 💩💩💩💩💩💩 auto commit"
+            "chore(bot): 💩💩💩💩💩💩💩 auto commit"
           )
-          
+          #Guess which 💩 day tomorrow is?
           rand=$((RANDOM % ${#arr[@]}))
           
           git commit -m "${arr[$rand]}"
