@@ -1,5 +1,5 @@
 # 自动提交
-🌳 可以让你的贡献图变绿，由[Github Actions](https://github.com/features/actions)驱动
+🌳 可以让你的贡献图变绿，由[Github Actions](https://github.com/features/actions)驱动（~~下图作废，本人已关闭此workflow，早期曾经入某某资源群需要日活跃证明,故而做此项目~~）
 
 ![Zeraphyms's Github Stats](https://ghchart.rshah.org/Zeraphyms)
 ## 创建你自己的仓库
